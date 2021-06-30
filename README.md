@@ -71,5 +71,38 @@
   - 01:51:52  DDSP Reverb
   - 01:52:21 Conclusion
 
+- 03 Tensorflow + Tensorboard + Scikit-learn: Simple audio recognition: Recognizing keywords[![Youtube](https://badgen.net/badge/Launch/on%20YouTube/red?icon=terminal)](https://youtu.be/MFGYEUj8S3I)<a href="https://colab.research.google.com/github/GuitarsAI/TopicsInAudioAndMusicTech/blob/main/simple_audio.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  - 00:00:00 Introduction
+  - 00:00:34 Simple audio recognition: Recognizing keywords Example
+  - 00:03:53 Tensorflow Keras
+  - 00:05:38 Tensorflow
+  - 00:07:44 Seed for Experiment Reproducibility
+  - 00:09:56 Speech Commands Dataset
+  - 00:11:33 Downloading files using 'tf.keras.utils.get_file'
+  - 00:15:07 Returning a list of files that match the given pattern(s) using 'tf.io.gfile.glob'
+  - 00:16:19 Splitting the dataset into training, validation and testing subsets
+  - 00:19:29 Scikit-learn
+  - 00:20:14 Stratified ShuffleSplit
+  - 00:24:38 Writing descriptive and efficient input pipelines using 'tf.data.Dataset'
+  - 00:26:20 Reading the contents of  a file using 'tf.io.read_file'
+  - 00:27:14 Applying transformations across the elements of a dataset using '.map(...)'
+  - 00:31:18 Spectrograms using 'tf.signal.stft'
+  - 00:31:32 Zero-padding in Tensorflow
+  - 00:34:00 Listening to audio files
+  - 00:36:10 Plotting Spectrograms
+  - 00:40:29 Batching the training and validation subsets using '.batch(...)'
+  - 00:41:48 Caching elements of a dataset using '.cache(...)'
+  - 00:42:20 Prefetching elements of a dataset unsing 'prefetch(...)'
+  - 00:43:13 Preprocessing Layers: Resizing and Normalization
+  - 00:43:48 Building a Sequential Model in Tensorflow Keras
+  - 00:46:10 Printing a string summary of the network using '.summary()'
+  - 00:46:46 Configuring the model for training using '.compile(...)'
+  - 00:48:12 Configuring Tensorboard
+  - 00:50:18 Training the Model using '.fit(...)'
+  - 00:50:33 Visualization in Tensorboard
+  - 00:52:20 Evaluating the Test set Performance
+  - 00:53:39 Displaying a Confusion Matrix using '.tf.math.confusion_matrix(...)'
+  - 00:54:40 Running Inference on an Audio File
+
 ## YouTube Playlist
  [![Youtube](https://badgen.net/badge/Launch/on%20YouTube/red?icon=terminal)](https://youtube.com/playlist?list=PL6QnpHKwdPYjYtJf8afYK0XQwFglxyjID)
